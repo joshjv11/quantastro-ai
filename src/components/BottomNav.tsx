@@ -1,12 +1,12 @@
-import { Home, Globe, MessageCircle, BookOpen, User } from "lucide-react";
+import { Home, Compass, Sparkles, MessageCircle, User } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const tabs = [
   { path: "/", icon: Home, label: "Home" },
-  { path: "/cosmic", icon: Globe, label: "Cosmic" },
+  { path: "/explore", icon: Compass, label: "Explore" },
+  { path: "/mystic", icon: Sparkles, label: "Mystic" },
   { path: "/chat", icon: MessageCircle, label: "Chat" },
-  { path: "/learn", icon: BookOpen, label: "Learn" },
   { path: "/profile", icon: User, label: "Profile" },
 ];
 
